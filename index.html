@@ -222,9 +222,11 @@
             <p><strong>Product:</strong> Flameless Ration Heater (MRE military food)</p>
             <p><strong>The Chemistry:</strong> Magnesium metal reacts with water (accelerated by iron and salt).</p>
             <div class="chem-equation">
-                $$ \text{Mg(s)} + 2\text{H}_{2}\text{O(l)} \rightarrow \text{Mg(OH)}_{2}\text{(s)} + \text{H}_{2}\text{(g)} + \mathbf{Heat} $$
+                <!-- CORRECTED MATH: Removed LaTeX and used standard HTML tags -->
+                Mg(s) + 2H<sub>2</sub>O(l) &rarr; Mg(OH)<sub>2</sub>(s) + H<sub>2</sub>(g) + Heat
             </div>
-            <p><b>$\Delta \text{H}$ is Negative:</b> The system gives off energy—your food gets hot!</p>
+            <!-- CORRECTED MATH: Replaced LaTeX for Delta H -->
+            <p><b>&Delta;H is Negative:</b> The system gives off energy—your food gets hot!</p>
             <div class="fun-fact">Fun fact: The US Army tested over 25 compound mixes to find the fastest, safest heater for soldiers on the move.</div>
         </div>
         <div class="card endo">
@@ -245,9 +247,11 @@
             <p><strong>Product:</strong> Instant Cold Pack (sports/medicine)</p>
             <p><strong>The Chemistry:</strong> Ammonium nitrate dissolves in water.</p>
             <div class="chem-equation">
-                $$ \text{NH}_{4}\text{NO}_{3}\text{(s)} + \mathbf{Heat} \rightarrow \text{NH}_{4}^{\text{+}}\text{(aq)} + \text{NO}_{3}^{\text{-}}\text{(aq)} $$
+                <!-- CORRECTED MATH: Removed LaTeX and used standard HTML tags -->
+                NH<sub>4</sub>NO<sub>3</sub>(s) + Heat &rarr; NH<sub>4</sub><sup>+</sup>(aq) + NO<sub>3</sub><sup>-</sup>(aq)
             </div>
-            <p><b>$\Delta \text{H}$ is Positive:</b> The system absorbs energy—cold packs pull heat from your injury.</p>
+            <!-- CORRECTED MATH: Replaced LaTeX for Delta H -->
+            <p><b>&Delta;H is Positive:</b> The system absorbs energy—cold packs pull heat from your injury.</p>
             <div class="fun-fact">Did you know? Cold packs are single-use; that's because the reaction can't easily run backwards without a lab!</div>
         </div>
     </div>
@@ -328,7 +332,7 @@
         const mercury = document.getElementById('mercury');
         const status = document.getElementById('sim-status');
         
-        // Minor bug fix: Ensured CSS variables are correctly referenced for colors
+        // Ensure CSS variables are correctly referenced for colors
         const exoColor = getComputedStyle(document.documentElement).getPropertyValue('--exo-color').trim();
         const endoColor = getComputedStyle(document.documentElement).getPropertyValue('--endo-color').trim();
 
